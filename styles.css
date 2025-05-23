@@ -1,0 +1,8 @@
+.amazon-link {
+  margin-left: 4px;
+  font-size: 90%;
+  text-decoration: none;
+}
+.amazon-link:hover {
+  text-decoration: underline;
+}

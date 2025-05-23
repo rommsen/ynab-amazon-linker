@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YNAB Amazon-Linker",
+  "version": "0.1.0",
+  "description": "Verwandelt Bestellnummern in Memos in klickbare Amazon-Links.",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.ynab.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": []
+}
